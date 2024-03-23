@@ -1,0 +1,17 @@
+.odin-container {
+  display: flex;
+  justify-content: center;
+  .odin-content {
+    max-width: 70vw;
+    margin-bottom: 3rem;
+
+    h2 {
+      padding: 3rem;
+      font-family: Norse;
+      font-size: 3rem;
+    }
+    p {
+      padding: 1rem;
+    }
+  }
+}

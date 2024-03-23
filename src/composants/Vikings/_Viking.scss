@@ -1,0 +1,17 @@
+.viking-container {
+  background-color: #4e878c;
+  display: flex;
+  justify-content: center;
+  .viking-content {
+    max-width: 70vw;
+    margin-bottom: 3rem;
+    h1 {
+      padding: 4rem;
+      font-family: Norse;
+      font-size: 3.5rem;
+    }
+    h2 {
+      padding: 4rem;
+    }
+  }
+}

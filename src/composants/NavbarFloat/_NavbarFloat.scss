@@ -1,0 +1,52 @@
+.hidden {
+  opacity: 0 !important;
+  transition: opacity 0.3s, max-height 0.3s ease-in-out;
+  visibility: hidden;
+}
+.NavbarFloat {
+  font-family: "Norse", sans-serif;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.3s, max-height 0.3s ease-in-out;
+  visibility: visible;
+  z-index: 10;
+
+  .NavbarFloat-content {
+    display: flex;
+    justify-content: center;
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: rem;
+
+      &:hover {
+        text-shadow: 2px 3px 15px black;
+      }
+    }
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      margin: 1rem;
+      gap: 2rem;
+      list-style-type: none;
+      font-size: 1.3rem;
+      max-width: 80vw;
+      background-color: whitesmoke;
+      padding: 1rem;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      border-radius: 2rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+      display: none;
+    }
+  }
+}

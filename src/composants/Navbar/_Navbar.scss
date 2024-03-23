@@ -1,0 +1,36 @@
+.navbar {
+  font-family: Norse;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: transparent !important;
+  padding: 0px;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.9rem;
+    text-shadow: 7px 8px 13px white;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+    gap: 2rem;
+    list-style-type: none;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}

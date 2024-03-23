@@ -1,0 +1,29 @@
+.nineworlds-container {
+  background-color: #773344;
+  display: flex;
+  justify-content: center;
+
+  .nineworlds-content {
+    max-width: 70vw;
+    margin-bottom: 4rem;
+
+    P {
+      padding-bottom: 2.7rem;
+    }
+
+    h1 {
+      padding: 4rem;
+      font-size: 3.5rem;
+
+      font-family: Norse;
+    }
+    h2 {
+      padding: 1.5rem;
+      font-size: 2.2rem;
+    }
+    h3 {
+      padding: 1rem;
+      font-size: 1.3rem;
+    }
+  }
+}

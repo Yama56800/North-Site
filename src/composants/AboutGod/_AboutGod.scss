@@ -1,0 +1,40 @@
+.about-context {
+  background-color: #201a23;
+  color: whitesmoke;
+  padding-bottom: 2rem;
+}
+.God {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #201a23;
+  color: whitesmoke;
+
+  .God-content {
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    P {
+      padding-bottom: 2.7rem;
+    }
+
+    h1 {
+      padding: 4rem;
+      font-size: 3.5rem;
+
+      font-family: Norse;
+    }
+    h2 {
+      font-family: Norse;
+      padding: 1.5rem;
+      font-size: 3rem;
+    }
+    h3 {
+      padding: 1rem;
+      font-size: 1.3rem;
+    }
+  }
+}

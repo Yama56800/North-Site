@@ -1,0 +1,67 @@
+.god-container {
+  background-color: #201a23;
+  color: whitesmoke;
+  h1 {
+    padding: 3.5rem !important;
+    font-size: 3.5rem;
+    font-family: Norse;
+
+    font-family: Norse;
+  }
+  h2 {
+    padding: 1.5rem;
+    font-size: 2.2rem;
+  }
+
+  .scroll-container {
+    display: flex;
+    overflow-x: auto;
+    width: 98vw;
+    height: 50vh;
+    background-color: #201a23; // Couleur de fond du conteneur
+    scroll-behavior: smooth;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .square {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      height: 40vh; // Hauteur du carré
+      margin: 0 10px; // Marge entre les carrés
+      position: relative;
+      border-radius: 0.2rem;
+      &:hover {
+        opacity: 0.5;
+      }
+      .description {
+        position: relative;
+        width: 29rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        #god-title {
+          font-family: Norse;
+          padding: 1rem;
+          font-size: 2.5rem;
+          position: absolute;
+          top: 2;
+          right: 0;
+          left: 0;
+        }
+        p {
+          padding-top: 5rem;
+          font-size: 1.2rem;
+          max-width: 90%;
+        }
+      }
+      img {
+        height: 216px;
+        position: absolute;
+        bottom: 0px;
+        border-radius: 0.2rem;
+      }
+    }
+  }
+}
