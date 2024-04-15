@@ -1,11 +1,11 @@
 import React from "react";
-
+import nineworlds from "../../images/ilustration/ilustration_9monde.webp";
 const NineWorlds = () => {
   return (
     <div className="nineworlds-container" id="nineworlds">
       <div className="nineworlds-content">
         <h1>Exploration des Neuf Mondes de la Mythologie Nordique</h1>
-
+        <img src={nineworlds} alt="" />
         <section>
           <h2>Asgard : Le Panthéon des Dieux</h2>
           <p>

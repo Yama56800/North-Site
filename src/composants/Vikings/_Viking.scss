@@ -3,12 +3,59 @@
   display: flex;
   justify-content: center;
   .viking-content {
-    max-width: 70vw;
+    max-width: 80vw;
     margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .viking-img-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      .viking-img-div-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem;
+      }
+      img {
+        width: 30vw;
+        margin-left: 4rem;
+        margin-top: 5rem;
+      }
+    }
+    .viking-img-div2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      .viking-img-div-content2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem;
+      }
+      img {
+        width: 30vw;
+        margin-right: 4rem;
+        margin-top: 5rem;
+      }
+    }
     h1 {
       padding: 4rem;
       font-family: Norse;
       font-size: 3.5rem;
+    }
+    .h1_description {
+      max-width: 60vw;
     }
     h2 {
       padding: 4rem;

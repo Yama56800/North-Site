@@ -10,7 +10,11 @@
     P {
       padding-bottom: 2.7rem;
     }
-
+    img {
+      object-fit: contain;
+      width: 40vw;
+      margin-bottom: 5rem;
+    }
     h1 {
       padding: 4rem;
       font-size: 3.5rem;

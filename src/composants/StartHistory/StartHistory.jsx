@@ -1,5 +1,5 @@
 import React from "react";
-
+import ilustration_viking from "../../images/ilustration/ilustration_viking.webp";
 export default function Projets() {
   return (
     <div className="starthistory-container" id="starthistory">
@@ -14,44 +14,49 @@ export default function Projets() {
           primordial, être de contradictions et d'harmonie, alimenté par le lait
           de la vache cosmique Audhumla.
         </p>
+        <div className="starthistory-img-div">
+          <div className="starthistory-img-div-content">
+            <h2>Ymir : Le Pilier du Monde en Devenir</h2>
+            <p>
+              Dans le sein de Ginnungagap, Ymir, entité d'une puissance
+              inimaginable, engendra la race des géants de givre. Son existence,
+              toutefois, ne fut pas sans conséquence. De son sommeil, naquirent
+              des êtres et des monstres, préfigurant la complexité d'un monde à
+              venir.
+            </p>
 
-        <h2>Ymir : Le Pilier du Monde en Devenir</h2>
-        <p>
-          Dans le sein de Ginnungagap, Ymir, entité d'une puissance
-          inimaginable, engendra la race des géants de givre. Son existence,
-          toutefois, ne fut pas sans conséquence. De son sommeil, naquirent des
-          êtres et des monstres, préfigurant la complexité d'un monde à venir.
-        </p>
+            <h2>La Conspiration Divine : La Chute de Ymir</h2>
+            <p>
+              Odin, accompagné de ses frères Vili et Vé, observait l'ordre
+              précaire instauré par l'existence de Ymir. Leur vision d'un cosmos
+              ordonné et harmonieux ne pouvait tolérer le chaos. Dans un acte de
+              rébellion et de création, ils décidèrent de mettre fin à l'ère de
+              Ymir, inaugurant ainsi l'aube de la création.
+            </p>
 
-        <h2>La Conspiration Divine : La Chute de Ymir</h2>
-        <p>
-          Odin, accompagné de ses frères Vili et Vé, observait l'ordre précaire
-          instauré par l'existence de Ymir. Leur vision d'un cosmos ordonné et
-          harmonieux ne pouvait tolérer le chaos. Dans un acte de rébellion et
-          de création, ils décidèrent de mettre fin à l'ère de Ymir, inaugurant
-          ainsi l'aube de la création.
-        </p>
+            <h3>De la Mort à la Vie : La Sculpture du Cosmos</h3>
+            <p>
+              Le sang de Ymir inonda Ginnungagap, créant les vastes océans. Sa
+              chair fut dispersée pour former la terre, ses os sculptés en
+              montagnes indomptables. Les dents du géant, éparpillées et
+              brisées, devinrent les pierres et les galets, témoins silencieux
+              de cette transformation. Le dôme du ciel fut forgé à partir de son
+              crâne, un firmament soutenu par les gardiens célestes, les nains,
+              aux quatre coins du monde.
+            </p>
 
-        <h3>De la Mort à la Vie : La Sculpture du Cosmos</h3>
-        <p>
-          Le sang de Ymir inonda Ginnungagap, créant les vastes océans. Sa chair
-          fut dispersée pour former la terre, ses os sculptés en montagnes
-          indomptables. Les dents du géant, éparpillées et brisées, devinrent
-          les pierres et les galets, témoins silencieux de cette transformation.
-          Le dôme du ciel fut forgé à partir de son crâne, un firmament soutenu
-          par les gardiens célestes, les nains, aux quatre coins du monde.
-        </p>
-
-        <h3>Midgard : Le Berceau de l'Humanité</h3>
-        <p>
-          Dans leur quête de création, Odin et ses frères érigèrent Midgard, le
-          royaume des mortels, utilisant pour cela les sourcils de Ymir comme
-          rempart contre les périls extérieurs. Midgard se dressait, tel un
-          joyau au cœur de l'univers, entouré par l'océan primordial où
-          Jörmungandr, le serpent-monde, se mordait éternellement la queue,
-          bouclant le cercle de la création.
-        </p>
-
+            <h3>Midgard : Le Berceau de l'Humanité</h3>
+            <p>
+              Dans leur quête de création, Odin et ses frères érigèrent Midgard,
+              le royaume des mortels, utilisant pour cela les sourcils de Ymir
+              comme rempart contre les périls extérieurs. Midgard se dressait,
+              tel un joyau au cœur de l'univers, entouré par l'océan primordial
+              où Jörmungandr, le serpent-monde, se mordait éternellement la
+              queue, bouclant le cercle de la création.
+            </p>
+          </div>
+          <img src={ilustration_viking} alt="" />
+        </div>
         <h2>Yggdrasil : L'Écho de l'Univers</h2>
         <p>
           Au-delà de la matérialité, Yggdrasil, l'Arbre Monde, se dressait comme

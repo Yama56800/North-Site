@@ -1,5 +1,5 @@
 import React from "react";
-
+import magic from "../../images/ilustration/ilustration_magic.webp";
 const NorseMagicAndRitualsExtended = () => {
   return (
     <div className="magic" id="magic">
@@ -8,48 +8,53 @@ const NorseMagicAndRitualsExtended = () => {
           Magie et Rituels dans la Mythologie Nordique : Une Exploration
           Approfondie
         </h1>
+        <div className="magic-img-div">
+          <div className="magic-img-div-content">
+            {/* La Magie dans le Nord */}
+            <section className="magic-section">
+              <h2>Le Seiðr et le Galdr</h2>
+              <p>
+                Le seiðr était une forme de magie principalement axée sur la
+                divination et la manipulation du destin, tandis que le galdr
+                impliquait l'usage de chants et de formules magiques. Les
+                praticiens de seiðr, souvent des femmes (Völvas), étaient
+                considérés avec une combinaison de respect et de crainte, jouant
+                un rôle crucial dans les décisions communautaires et les
+                événements importants. Le galdr, pratiqué par les hommes et les
+                femmes, utilisait le pouvoir des runes et des incantations pour
+                invoquer la magie.
+              </p>
+            </section>
 
-        {/* La Magie dans le Nord */}
-        <section className="magic-section">
-          <h2>Le Seiðr et le Galdr</h2>
-          <p>
-            Le seiðr était une forme de magie principalement axée sur la
-            divination et la manipulation du destin, tandis que le galdr
-            impliquait l'usage de chants et de formules magiques. Les praticiens
-            de seiðr, souvent des femmes (Völvas), étaient considérés avec une
-            combinaison de respect et de crainte, jouant un rôle crucial dans
-            les décisions communautaires et les événements importants. Le galdr,
-            pratiqué par les hommes et les femmes, utilisait le pouvoir des
-            runes et des incantations pour invoquer la magie.
-          </p>
-        </section>
+            {/* Les Rituels Nordiques */}
+            <section>
+              <h2>Les Fêtes Saisonnières et les Blóts</h2>
+              <p>
+                Les Vikings célébraient plusieurs fêtes saisonnières
+                importantes, telles que Yule (le solstice d'hiver) et Midsummer,
+                qui étaient marquées par des rituels de fertilité, de
+                remerciement, et de renouvellement. Les blóts impliquaient des
+                sacrifices d'animaux ou d'objets à des dieux ou des esprits
+                spécifiques, souvent effectués dans des lieux sacrés comme des
+                bosquets, des sources, ou des pierres dressées.
+              </p>
+            </section>
 
-        {/* Les Rituels Nordiques */}
-        <section>
-          <h2>Les Fêtes Saisonnières et les Blóts</h2>
-          <p>
-            Les Vikings célébraient plusieurs fêtes saisonnières importantes,
-            telles que Yule (le solstice d'hiver) et Midsummer, qui étaient
-            marquées par des rituels de fertilité, de remerciement, et de
-            renouvellement. Les blóts impliquaient des sacrifices d'animaux ou
-            d'objets à des dieux ou des esprits spécifiques, souvent effectués
-            dans des lieux sacrés comme des bosquets, des sources, ou des
-            pierres dressées.
-          </p>
-        </section>
-
-        {/* Les Runes */}
-        <section>
-          <h2>Le Mystère des Runes</h2>
-          <p>
-            Les runes étaient considérées comme bien plus qu'un simple alphabet.
-            Elles étaient censées détenir un pouvoir intrinsèque, chaque symbole
-            encapsulant des forces cosmiques et des principes spirituels. La
-            gravure de runes était un acte chargé de significations, capable
-            d'apporter protection, chance, ou même de blesser les ennemis.
-          </p>
-        </section>
-
+            {/* Les Runes */}
+            <section>
+              <h2>Le Mystère des Runes</h2>
+              <p>
+                Les runes étaient considérées comme bien plus qu'un simple
+                alphabet. Elles étaient censées détenir un pouvoir intrinsèque,
+                chaque symbole encapsulant des forces cosmiques et des principes
+                spirituels. La gravure de runes était un acte chargé de
+                significations, capable d'apporter protection, chance, ou même
+                de blesser les ennemis.
+              </p>
+            </section>
+          </div>
+          <img src={magic} alt="" />
+        </div>
         {/* Le Rôle des Dieux et des Mythes */}
         <section>
           <h2>Divination et Communication avec l'Au-delà</h2>

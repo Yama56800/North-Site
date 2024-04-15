@@ -1,57 +1,62 @@
 import React from "react";
-
+import lastviking from "../../images/ilustration/ilustration_lastviking.webp";
 const EndOfVikingEra = () => {
   return (
     <div className="FinViking-container" id="EndOfVikingEra">
       <div className="FinViking-content">
         <h1>La Fin de l'Ère Viking et son Héritage</h1>
+        <div className="lastviking-img-div">
+          <div className="lastviking-img-div-content">
+            <section>
+              <h2>La Transition vers le Christianisme</h2>
+              <p>
+                La fin de l'ère viking est marquée par l'adoption progressive du
+                christianisme à travers la Scandinavie, un processus qui a
+                commencé au début du Xe siècle. Cette transition fut influencée
+                par divers facteurs, notamment les contacts avec les royaumes
+                chrétiens d'Europe, les missions évangéliques, et les décisions
+                des rois nordiques qui y voyaient un moyen de consolider leur
+                pouvoir et d'unifier leurs territoires. Le passage du
+                polythéisme nordique au christianisme a entraîné d'importantes
+                transformations culturelles et sociales, marquant la fin des
+                anciennes traditions et la naissance d'une nouvelle ère.
+              </p>
+            </section>
 
-        <section>
-          <h2>La Transition vers le Christianisme</h2>
-          <p>
-            La fin de l'ère viking est marquée par l'adoption progressive du
-            christianisme à travers la Scandinavie, un processus qui a commencé
-            au début du Xe siècle. Cette transition fut influencée par divers
-            facteurs, notamment les contacts avec les royaumes chrétiens
-            d'Europe, les missions évangéliques, et les décisions des rois
-            nordiques qui y voyaient un moyen de consolider leur pouvoir et
-            d'unifier leurs territoires. Le passage du polythéisme nordique au
-            christianisme a entraîné d'importantes transformations culturelles
-            et sociales, marquant la fin des anciennes traditions et la
-            naissance d'une nouvelle ère.
-          </p>
-        </section>
+            <section>
+              <h2>Les Dernières Expéditions Vikings</h2>
+              <p>
+                Jusqu'au XIe siècle, les Vikings ont continué à explorer,
+                piller, et commercer à travers l'Europe, atteignant même des
+                territoires aussi lointains que l'Amérique du Nord. Cependant,
+                l'affaiblissement des raids vikings peut être attribué à la
+                montée en puissance des royaumes européens, capables de mieux se
+                défendre, ainsi qu'à l'intégration croissante des Vikings dans
+                les structures politiques et économiques européennes. Les
+                dernières grandes expéditions, comme celles de Leif Erikson en
+                Amérique du Nord, marquent le crépuscule de l'ère des Vikings en
+                tant que force dominante en Europe.
+              </p>
+            </section>
 
-        <section>
-          <h2>Les Dernières Expéditions Vikings</h2>
-          <p>
-            Jusqu'au XIe siècle, les Vikings ont continué à explorer, piller, et
-            commercer à travers l'Europe, atteignant même des territoires aussi
-            lointains que l'Amérique du Nord. Cependant, l'affaiblissement des
-            raids vikings peut être attribué à la montée en puissance des
-            royaumes européens, capables de mieux se défendre, ainsi qu'à
-            l'intégration croissante des Vikings dans les structures politiques
-            et économiques européennes. Les dernières grandes expéditions, comme
-            celles de Leif Erikson en Amérique du Nord, marquent le crépuscule
-            de l'ère des Vikings en tant que force dominante en Europe.
-          </p>
-        </section>
-
-        <section>
-          <h2>L'Héritage Viking dans l'Europe Médiévale</h2>
-          <p>
-            L'influence des Vikings sur l'Europe médiévale s'étend bien au-delà
-            de la fin de leurs expéditions. En tant que commerçants,
-            explorateurs, et colonisateurs, les Vikings ont laissé une marque
-            indélébile sur l'histoire européenne. Leur héritage est visible dans
-            la cartographie de l'Europe, avec des Vikings qui ont fondé ou
-            gouverné des villes et régions clés, y compris la Normandie en
-            France et des parties de l'Angleterre, de l'Irlande, et de l'Italie.
-            Leurs apports aux langues, aux lois, et aux traditions culturelles
-            continuent d'influencer ces régions.
-          </p>
-        </section>
-
+            <section>
+              <h2>L'Héritage Viking dans l'Europe Médiévale</h2>
+              <p>
+                L'influence des Vikings sur l'Europe médiévale s'étend bien
+                au-delà de la fin de leurs expéditions. En tant que commerçants,
+                explorateurs, et colonisateurs, les Vikings ont laissé une
+                marque indélébile sur l'histoire européenne. Leur héritage est
+                visible dans la cartographie de l'Europe, avec des Vikings qui
+                ont fondé ou gouverné des villes et régions clés, y compris la
+                Normandie en France et des parties de l'Angleterre, de
+                l'Irlande, et de l'Italie. Leurs apports aux langues, aux lois,
+                et aux traditions culturelles continuent d'influencer ces
+                régions.
+              </p>
+            </section>
+          </div>
+          <img src={lastviking} alt="" />
+        </div>
         <section>
           <h2>
             L'Impact du Christianisme et de la Fin de l'Ère Viking sur la
