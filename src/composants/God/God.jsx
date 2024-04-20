@@ -95,7 +95,7 @@ class HorizontalScrollMenu extends React.Component {
     e.preventDefault(); // Empêche le défilement de la page entière
 
     // Calculer le défilement horizontal basé sur le delta Y de la molette
-    const scrollSpeedFactor = 6;
+    const scrollSpeedFactor = 4;
     const container = document.getElementById("scroll-container");
     const scrollAmount = e.deltaY * scrollSpeedFactor;
     container.scrollLeft += scrollAmount;

@@ -65,3 +65,35 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .god-container {
+    h1 {
+      font-size: 2.5rem;
+      padding: 0;
+      padding-top: 3rem;
+      padding-bottom: 2rem;
+      width: 90%;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    .scroll-container {
+      .square {
+        height: 40vh;
+        margin: 0 10px;
+        .description {
+          width: 29rem;
+          #god-title {
+            font-size: 2.5rem;
+          }
+          p {
+            font-size: 1rem;
+          }
+        }
+        img {
+          height: 216px;
+        }
+      }
+    }
+  }
+}

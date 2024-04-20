@@ -1,8 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "north-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thomas-mahias.com/",
+  "homepage": "https://yama56800.github.io/North-Site/",
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
     "@google/model-viewer": "^3.4.0",

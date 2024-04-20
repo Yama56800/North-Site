@@ -43,3 +43,33 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .Archeology-container {
+    .Archeology-content {
+      h1 {
+        font-size: 2.5rem;
+        padding: 0;
+        padding-top: 3rem;
+      }
+      p {
+        max-width: 70vw;
+      }
+      .viking-archeologie-img-div {
+        flex-direction: column;
+        img {
+          width: 70vw;
+          margin-left: 0;
+        }
+        .viking-archeologie-img-div-content {
+          padding: 0;
+          section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+}

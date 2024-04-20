@@ -50,3 +50,37 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .FinViking-container {
+    .FinViking-content {
+      h1 {
+        font-size: 2.5rem;
+        padding: 0;
+        padding-top: 3rem;
+      }
+      h2 {
+        font-size: 1.8rem;
+        width: 90vw;
+      }
+      p {
+        max-width: 70vw;
+      }
+      section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .lastviking-img-div {
+        flex-direction: column;
+        img {
+          width: 70vw;
+          margin: 0;
+        }
+        .lastviking-img-div-content {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
