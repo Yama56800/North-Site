@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/North-Site/static/css/main.5ecb7571.css",
-    "main.js": "/North-Site/static/js/main.02e0c86d.js",
+    "main.css": "/North-Site/static/css/main.4d524d77.css",
+    "main.js": "/North-Site/static/js/main.ae8e66ad.js",
     "static/js/882.7972bf1b.chunk.js": "/North-Site/static/js/882.7972bf1b.chunk.js",
     "static/media/homebackground.webp": "/North-Site/static/media/homebackground.484c9dbe0c859143fe40.webp",
     "static/media/ilustration_viking_container2.webp": "/North-Site/static/media/ilustration_viking_container2.a774c692641568f67815.webp",
@@ -24,12 +24,12 @@
     "static/media/Norse.otf": "/North-Site/static/media/Norse.b8b97d868ac533cacf58.otf",
     "static/media/Norse-Bold.otf": "/North-Site/static/media/Norse-Bold.5efe60ef5042faec1224.otf",
     "index.html": "/North-Site/index.html",
-    "main.5ecb7571.css.map": "/North-Site/static/css/main.5ecb7571.css.map",
-    "main.02e0c86d.js.map": "/North-Site/static/js/main.02e0c86d.js.map",
+    "main.4d524d77.css.map": "/North-Site/static/css/main.4d524d77.css.map",
+    "main.ae8e66ad.js.map": "/North-Site/static/js/main.ae8e66ad.js.map",
     "882.7972bf1b.chunk.js.map": "/North-Site/static/js/882.7972bf1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ecb7571.css",
-    "static/js/main.02e0c86d.js"
+    "static/css/main.4d524d77.css",
+    "static/js/main.ae8e66ad.js"
   ]
 }
