@@ -12,6 +12,7 @@ import Quizz from "./composants/Quizz/Quizz";
 import StartHistory from "./composants/StartHistory/StartHistory";
 import VikingArchaeology from "./composants/VikingArchaeology/VikingArchaeology";
 import Vikings from "./composants/Vikings/Vikings";
+import BtnBack from "./composants/BtnBack/BtnBack";
 
 import Footer from "./composants/Footer/Footer";
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <ArtAndLiterature />
       <ModernCulture />
       <Quizz />
+      <BtnBack />
 
       <Footer />
     </div>

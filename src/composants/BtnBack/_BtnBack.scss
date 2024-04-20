@@ -1,0 +1,32 @@
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.btn-back {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 50%;
+  cursor: pointer;
+  animation: bounce 2s infinite; /* Applique l'animation 'bounce' qui dure 2 secondes et se répète indéfiniment */
+}
+
+.btn-back .IoIosArrowUp {
+  font-size: 1.4rem;
+}
