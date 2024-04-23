@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/North-Site/static/css/main.55655ce0.css",
+    "main.css": "/North-Site/static/css/main.a6a33cbe.css",
     "main.js": "/North-Site/static/js/main.ff68c53d.js",
     "static/js/882.7972bf1b.chunk.js": "/North-Site/static/js/882.7972bf1b.chunk.js",
     "static/media/homebackground.webp": "/North-Site/static/media/homebackground.484c9dbe0c859143fe40.webp",
@@ -24,12 +24,12 @@
     "static/media/Norse.otf": "/North-Site/static/media/Norse.b8b97d868ac533cacf58.otf",
     "static/media/Norse-Bold.otf": "/North-Site/static/media/Norse-Bold.5efe60ef5042faec1224.otf",
     "index.html": "/North-Site/index.html",
-    "main.55655ce0.css.map": "/North-Site/static/css/main.55655ce0.css.map",
+    "main.a6a33cbe.css.map": "/North-Site/static/css/main.a6a33cbe.css.map",
     "main.ff68c53d.js.map": "/North-Site/static/js/main.ff68c53d.js.map",
     "882.7972bf1b.chunk.js.map": "/North-Site/static/js/882.7972bf1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55655ce0.css",
+    "static/css/main.a6a33cbe.css",
     "static/js/main.ff68c53d.js"
   ]
 }
